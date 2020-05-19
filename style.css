@@ -1,0 +1,75 @@
+body {
+    font-family: system-ui;
+    background-image: url("https://storage.needpix.com/rsynced_images/gray-top-gradient-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: center;
+  }
+  
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+blockquote {
+    padding-bottom: 2.5em;
+    width: 70%;
+    max-width: 900px;
+    text-align: justify;
+    margin: auto;
+}
+
+.date, #more-info {
+    font-weight: bold;
+}
+
+#title {
+    color: #F30101;
+    font-size: 4em;
+}
+
+#description {
+    font-size: 1.5em;
+}
+
+#img-div {
+    background-color: white;
+    width: 96%;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 2em;
+    border: 2px solid black;
+    border-radius: 1em;
+}
+
+#image {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 0.5em;
+}
+
+#img-caption {
+    padding: 1em 0;
+}
+
+#tribute-info {
+    width: 60%;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+#tribute-info ul {
+    text-align: justify;
+    padding: 0.5em;
+}
+
+#tribute-info ul > li {
+    padding-bottom: 2em;
+}
